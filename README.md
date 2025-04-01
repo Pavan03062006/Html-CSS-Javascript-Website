@@ -37,7 +37,7 @@ To run this project locally, follow these steps:
 
 ## Folder Structure
 ```
-Html-CSS-Javascript-WEbsite/
+Html-CSS-Javascript-Website/
 ├── Project1.html
 ├── css/
 │   └── Project1.1.css
