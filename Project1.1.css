@@ -1,0 +1,55 @@
+body {
+    font-family: Didot, Didot LT STD, Hoefler Text, Garamond, Times New Roman, serif;
+    background-color:#FFD580;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #FFA500;
+    font-size: 100px;
+    text-shadow: -1px 0 black, 0 1px black, 6px 0 black, 0 -1px black;
+}
+
+h3 {
+    color:#FFA500;
+    font-size: 40px;
+    text-shadow: -1px 0 black, 0 1px black, 5px 0 black, 0 -1px black;
+}
+
+p {
+    color: #FF8C00;
+    font-size: 30px;
+    text-shadow: -1px 0 black, 0 1px black, 3px 0 black, 0 -1px black;
+}
+
+img {
+    width: 600px;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+button {
+    padding: 10px 20px;
+    margin: 20px;
+    background-color: #008cbf;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005f6a;
+}
+
+.outlined-image {
+            width: 750px; 
+            height: auto;
+            padding: 10px; 
+            border-radius: 10px;
+            background: linear-gradient(135deg, white 50%, orange 50%);   
+}

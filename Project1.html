@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Restaurants In Town!</title>
+    <link rel="stylesheet" href="Project1.1.css">
+</head>
+<body>
+    <h1>Restaurant Finder</h1>
+    <p>"Discover the Best Restaurants Near You!"</p>
+     <h3><a href="https://n-naka.com">1.n/naka (心の中)</a></h3>
+     <img src="C:\Users\PavanSanjay\Documents\Project_1\images\res_1.jpg" alt="Sample Image" class="outlined-image">
+     <h3><a href="https://hayatorestaurant.com">2.Hayato(隼人)</a></h3>
+     <img src="C:\Users\PavanSanjay\Documents\Project_1\images\res_2.jpg" alt="Sample Image" class="outlined-image">
+     <h3><a href="https://providencela.com">3.Providence</a></h3>
+     <img src="C:\Users\PavanSanjay\Documents\Project_1\images\res_3.png" alt="Sample Image" class="outlined-image">
+     <h3><a href="https://www.fiarestaurant.com">4.Fia</a></h3>
+     <img src="C:\Users\PavanSanjay\Documents\Project_1\images\res_4.jpg" alt="Sample Image" class="outlined-image">
+    <p>Give Your Rating:</p>
+    <style>
+    .stars input { display: none; }
+    .stars label {
+        font-size: 30px;
+        color: gray;
+        cursor: pointer;
+    }
+    .stars input:checked ~ label {
+        color: orange;
+    }
+    </style>
+
+    <div class="stars">
+    	<input type="radio" id="star5" name="rating" value="5">
+    	<label for="star5">★</label>
+    	<input type="radio" id="star4" name="rating" value="4">
+    	<label for="star4">★</label>
+    	<input type="radio" id="star3" name="rating" value="3">
+    	<label for="star3">★</label>
+    	<input type="radio" id="star2" name="rating" value="2">
+    	<label for="star2">★</label>
+    	<input type="radio" id="star1" name="rating" value="1">
+    	<label for="star1">★</label>
+    </div>
+    <button onclick="showMessage()">Submit</button>
+    <script src="project1.2.js"></script>
+</body>
+</html>
